@@ -14,3 +14,7 @@ type sysfs_kcal, sysfs_type, fs_type;
 
 # FastCharge
 type sysfs_fastcharge, sysfs_type, fs_type;
+
+# USB
+type sysfs_usb_device, sysfs_type, fs_type;
+
