@@ -17,10 +17,6 @@ allow system_app sysfs_fastcharge:file rwx_file_perms;
 # FPS tile
 allow system_app sysfs:file { open read getattr write };
 
-# Backlight Dimmer
-allow system_app sysfs_backlightdim:dir search;
-allow system_app sysfs_backlightdim:file rw_file_perms;
-
 # Audio Gain
 allow system_app sysfs_headgain:file { open read getattr write };
 allow system_app sysfs_micgain:file { open read getattr write };

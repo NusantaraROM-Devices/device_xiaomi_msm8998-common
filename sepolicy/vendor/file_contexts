@@ -45,6 +45,3 @@
 
 # FPS tile
 /sys/devices/virtual/graphics/fb0/measured_fps                         u:object_r:sysfs_fps:s0
-
-# Backlight Dimmer
-/sys/module/mdss_fb/parameters/backlight_dimmer              u:object_r:sysfs_backlightdim:s0
