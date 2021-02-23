@@ -17,3 +17,10 @@ type sysfs_fastcharge, sysfs_type, fs_type;
 
 # FPS Info
 type sysfs_fps, sysfs_type, fs_type;
+
+# Audio Gain
+type sysfs_headgain, sysfs_type, fs_type;
+type sysfs_micgain, sysfs_type, fs_type;
+
+# Backlight Dimmer
+type sysfs_backlightdim, sysfs_type, fs_type;

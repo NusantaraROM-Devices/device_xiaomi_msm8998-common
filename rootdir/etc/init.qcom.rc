@@ -84,6 +84,16 @@ on post-fs-data
     chown system graphics /sys/class/graphics/fb0/measured_fps
     chmod 0666 /sys/class/graphics/fb0/measured_fps
 
+    # Backlight Dimmer
+    chown system system /sys/module/mdss_fb/parameters/backlight_dimmer
+    chmod 0660 /sys/module/mdss_fb/parameters/backlight_dimmer
+
+    # Audio Gain
+    chown system system /sys/kernel/sound_control/headphone_gain
+    chown system system /sys/kernel/sound_control/mic_gain
+    chmod 0660 /sys/kernel/sound_control/headphone_gain
+    chmod 0660 /sys/kernel/sound_control/mic_gain
+
     # Sweep2Sleep permissions
     chown system system /sys/sweep2sleep/vib_strength
     chown system system /sys/sweep2sleep/sweep2sleep
